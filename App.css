@@ -1,0 +1,110 @@
+/*Kazi Hasanus Safa
+ ID: 101275458 */
+form {
+  background: #94a5ada8;
+  border: 3px solid #03058a;
+  padding: 2.2rem;
+  width: 90%;
+  margin: auto; 
+}
+
+div.top {
+  margin-top: 1%;
+  padding: 1%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+div.btm {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.1rem;
+  justify-content: flex-start;
+}
+input {
+  margin: 1rem;
+}
+#address{
+  margin-top: 12px;
+}
+#name_id, #email_id {
+  
+  width: 100%;
+  height: 50%
+}
+
+#city_id, #post_id {
+  width: 100%;
+  height: 50%
+}
+#address1_id, #address2_id{
+  
+  padding: 12px;
+  width: 98%;
+  height: 70%
+}
+ #prvncBox {
+  width: 100%;
+  height: 60%
+}
+
+#prncBox {
+  margin-bottom: 0.9rem;
+}
+
+label {
+  display: block;
+  text-align: center;
+  font-weight: 600;
+}
+
+input[type=checkbox] {
+  margin-left: 31rem;
+}
+
+:root {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#Subbtn {
+  background-color: #03058a;
+  color: #ffffff;
+  border: none;
+  padding: 0.61rem 1.01rem;
+  display: block;
+  margin-left: 35.02rem;
+}
+
+.display_data {
+  margin: 5px auto;
+  width: 90%;
+  padding: 1px;
+  text-align: center;
+  color: black;
+  border: 1px solid #5f81ad;
+}
+
+table {
+  width: 500px;
+}
+
+td, tr, table {
+  padding: 1px;
+  margin-left: 10px;
+  text-align: left;
+  border-collapse: collapse;
+  /*border: 1px solid #97938c;*/
+}
+
+.level {
+  text-align: right;
+  color: #090080;
+  font-weight: bold;
+  margin-right: 10px;
+  padding: 1px;
+}
+h2 {
+  text-align: center;
+}
